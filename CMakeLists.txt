@@ -15,13 +15,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(FMT REQUIRED IMPORTED_TARGET fmt)
 
-set(SOURCE_FILES
-        materials/Chap02/pointers.cpp
-#        materials/Chap02/hello.cpp
-#        materials/Chap02/statement.cpp
-#        materials/Chap02/variables.cpp
-#        materials/Chap02/working.cpp
-        )
+set(SOURCE_FILES materials/Chap03/for.cpp)
 
 add_executable(c-plus-plus-essential-training-1 ${SOURCE_FILES})
 
