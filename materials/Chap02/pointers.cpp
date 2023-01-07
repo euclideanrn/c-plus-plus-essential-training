@@ -10,8 +10,12 @@ int main() {
     int x{7};
     int y{42};
     int *ip = &x;
+    int &a = x;
 
     cout << format("The value of x is {}\n", x);
     cout << format("The value of y is {}\n", y);
-    cout << format("The value of *ip is {}\n", *ip);
+    cout << format("The value of ++*ip is {}\n", ++ *ip);
+    cout << format("The value of x is {}\n", x);
+    cout << format("The value of ++a is {}\n", ++a);
+    cout << format("The value of x is {}\n", x);
 }
