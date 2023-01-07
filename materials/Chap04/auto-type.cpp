@@ -1,10 +1,10 @@
 // auto-type.cpp by Bill Weinman [bw.org]
 // updated 2022-05-25
-#include <format>
+#include <fmt/format.h>
 #include <iostream>
 #include <typeinfo>
 
-using std::format;
+using fmt::format;
 using std::cout;
 
 int main() {

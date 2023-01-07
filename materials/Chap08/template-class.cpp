@@ -1,12 +1,12 @@
 // template-class.cpp by Bill Weinman [bw.org]
 // updated 2022-06-21
-#include <format>
+#include <fmt/format.h>
 #include <iostream>
 #include <memory>
 #include <string>
 #include <exception>
 
-using std::format;
+using fmt::format;
 using std::cout;
 
 namespace bw {

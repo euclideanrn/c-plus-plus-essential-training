@@ -1,10 +1,10 @@
 // qualifiers.cpp by Bill Weinman [bw.org]
 // updated 2022-06-16
 #include <iostream>
-#include <format>
+#include <fmt/format.h>
 
 using std::cout;
-using std::format;
+using fmt::format;
 
 int func() {
     int x {7};

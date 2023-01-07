@@ -1,10 +1,10 @@
 // 07-solution.cpp by Bill Weinman <http://bw.org/>
 // updated 2022-06-18
-#include <format>
+#include <fmt/format.h>
 #include <iostream>
 #include <string>
 
-using std::format;
+using fmt::format;
 using std::cout;
 using std::string;
 

@@ -1,11 +1,11 @@
 // vector.cpp by Bill Weinman [bw.org]
 // updated 2022-06-04
-#include <format>
+#include <fmt/format.h>
 #include <iostream>
 #include <string>
 #include <vector>
 
-using std::format;
+using fmt::format;
 using std::cout;
 using std::vector;
 

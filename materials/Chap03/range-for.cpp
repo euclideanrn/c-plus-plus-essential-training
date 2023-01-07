@@ -1,9 +1,9 @@
 // range-for.cpp by Bill Weinman [bw.org]
 // updated 2022-05-23
-#include <format>
+#include <fmt/format.h>
 #include <iostream>
 
-using std::format;
+using fmt::format;
 using std::cout;
 
 int main() {

@@ -38,6 +38,7 @@ int main() {
     int x{7};
     int y{42};
     int *ip = &x;
+    int &a = x;
 
     /*
      * The reference a is initialized with the value of x, and it acts as an alias for x.

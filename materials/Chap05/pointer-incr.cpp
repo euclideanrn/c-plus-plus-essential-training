@@ -1,10 +1,10 @@
 // pointer-incr.cpp by Bill Weinman <http://bw.org/>
 // updated 2020-05-26
-#include <format>
+#include <fmt/format.h>
 #include <iostream>
 #include <cstdint>
 
-using std::format;
+using fmt::format;
 using std::cout;
 
 using int_type = uint8_t;
