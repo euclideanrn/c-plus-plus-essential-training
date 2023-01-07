@@ -1,14 +1,14 @@
 // 09_solution.cpp by Bill Weinman <http://bw.org/>
 // updated 2022-06-22
 
-#include <format>
+#include <fmt/format.h>
 #include <iostream>
 #include <fstream>
 #include <string>
 #include <vector>
 
 using std::cout;
-using std::format;
+using fmt::format;
 using std::string;
 using std::vector;
 
